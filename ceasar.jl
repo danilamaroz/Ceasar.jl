@@ -35,11 +35,14 @@ end
 
 function ceasarprint(phrase::ASCIIString)
   for k in 0:127
-    ceasarencode(phrase, k)
-    println(str)
+    println(ceasarencode(phrase, k))
   end
 end
 
 
 
-ceasarencode("my phrase", 0)
+print(ceasarencode("veni, vedi, vici", 30))
+
+ceasarprint("veni, vedi, vici")
+
+print(ceasartransform(' ', 30))
