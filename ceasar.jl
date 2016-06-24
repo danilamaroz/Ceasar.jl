@@ -41,8 +41,8 @@ end
 
 
 
-print(ceasarencode("veni, vidi, vici", 30))
+print(ceasarencode("veni, vidi, vici", 100))
 
 ceasarprint("veni, vidi, vici")
 
-print(ceasartransform(' ', 30))
+print(ceasartransform(' ', 100))
